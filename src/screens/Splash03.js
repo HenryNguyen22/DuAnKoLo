@@ -53,10 +53,7 @@ const styles = StyleSheet.create({
         marginTop: 42,
     },
     buttonContainer: {
-<<<<<<< Updated upstream
         //marginTop: 42,
-=======
->>>>>>> Stashed changes
         alignItems: 'center',
         height: '20%',
     },
@@ -76,10 +73,7 @@ const styles = StyleSheet.create({
     },
     textContainer: {
         alignItems: 'center',
-<<<<<<< Updated upstream
         //marginTop: 39,
-=======
->>>>>>> Stashed changes
         height: '30%',
     },
     image: {
@@ -87,11 +81,8 @@ const styles = StyleSheet.create({
         height: 434,
     },
     imageContainer: {
-<<<<<<< Updated upstream
         marginTop: 30,
         //marginTop: 162,
-=======
->>>>>>> Stashed changes
         alignItems: 'center',//ngang
         height: '50%',
     },
