@@ -22,6 +22,7 @@ const Splash02 = (props) => {
 
 
             <TouchableOpacity style={styles.buttonContainer}>
+
                 <View style={{ marginTop: 42 }}>
                     <Pressable style={styles.button}
                         onPress={() => navigation.navigate("Splash03")}>
@@ -49,7 +50,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#53E88B',
         borderRadius: 15,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        //marginTop: 42,
     },
     buttonContainer: {
         //marginTop: 42,
@@ -62,12 +64,16 @@ const styles = StyleSheet.create({
         color: '#000000',
         lineHeight: 21,
         textAlign: 'center',
+        lineHeight:21,
+        //marginTop: 10
     },
     textFindFood: {
         fontWeight: 'bold',
         fontSize: 22,
         color: '#09051C',
         textAlign: 'center',
+
+        //marginTop: 10
     },
     textContainer: {
         alignItems: 'center',
@@ -76,10 +82,10 @@ const styles = StyleSheet.create({
     },
     image: {
         width: 408,
-        height: 434
+        height: 434,
     },
     imageContainer: {
-        marginTop: 30,
+        //marginTop: 30,
         //marginTop: 162,
         alignItems: 'center',//ngang
         height: '50%',
@@ -89,7 +95,5 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         width: '100%',
         height: '100%'
-        //alignItems: 'center',
-        //justifyContent: 'center',
     },
 })
