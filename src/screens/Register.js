@@ -53,7 +53,7 @@ const Register = (props) => {
                                 style={styles.textInput}
                                 secureTextEntry={getPasswordVisible ? false : true} />
 
-                            <TouchableOpacity
+                            <TouchableOpacity style={{ position: 'absolute', right: 0, marginRight: 5}}
                                 onPress={() => {
                                     setPasswordVisible(!getPasswordVisible)
                                 }}>
@@ -121,7 +121,8 @@ const styles = StyleSheet.create({
     },
 
     accountContainer: {
-        marginTop: 60,
+        //marginTop: 60,
+        marginTop: 30,
         alignItems: 'center'
     },
     accountText: {
@@ -147,7 +148,6 @@ const styles = StyleSheet.create({
         elevation: 3
     },
     textInput: {
-        height: 22,
         width: '90%',
         fontSize: 16,
         fontWeight: '400',

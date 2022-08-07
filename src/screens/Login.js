@@ -45,6 +45,7 @@ const Login = (props) => {
                                 secureTextEntry={getPasswordVisible ? false : true} />
 
                             <TouchableOpacity
+                            style={{ position: 'absolute', right: 0, marginRight: 5}}
                                 onPress={() => {
                                     setPasswordVisible(!getPasswordVisible)
                                 }}>
@@ -135,7 +136,8 @@ const styles = StyleSheet.create({
     },
 
     accountContainer: {
-        marginTop: 60,
+        //marginTop: 60,
+        marginTop: 30,
         alignItems: 'center'
     },
     accountText: {
@@ -158,14 +160,14 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFFFFF',
         flexDirection: 'row',
         alignItems: 'center',
-        elevation: 3
+        elevation: 3,
+        width: '100%'
     },
     textInput: {
-        height: 22,
         width: '90%',
         fontSize: 16,
         fontWeight: '400',
-        color: '#000000',
+        color: 'black',
         paddingHorizontal: 6,
     },
     imageEmail: {

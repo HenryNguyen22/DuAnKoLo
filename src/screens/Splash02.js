@@ -12,15 +12,17 @@ const Splash02 = (props) => {
             </View>
 
             <View style={styles.textContainer}>
+                <View style={{ marginTop:39}}>
                 <Text style={styles.textFindFood}>Find your Comfort Food here</Text>
                 <Text style={styles.textFindFood}>Food here</Text>
                 <Text style={styles.textOder}>Here You Can find a chef or dish for every</Text>
                 <Text style={styles.textOder}>taste and color. Enjoy!</Text>
+                </View>
             </View>
 
 
-            <TouchableOpacity>
-                <View style={styles.buttonContainer}>
+            <TouchableOpacity style={styles.buttonContainer}>
+                <View style={{ marginTop: 42}}>
                     <Pressable style={styles.button}
                         onPress={() => navigation.navigate("Splash03")}>
                         <Text style={styles.next}>Next</Text>
@@ -50,8 +52,9 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     buttonContainer: {
-        marginTop: 42,
+        //marginTop: 42,
         alignItems: 'center',
+        height: '20%',
     },
     textOder: {
         fontSize: 12,
@@ -67,7 +70,8 @@ const styles = StyleSheet.create({
     },
     textContainer: {
         alignItems: 'center',
-        marginTop: 39,
+        //marginTop: 39,
+        height: '30%',
     },
     image: {
         width: 408,
@@ -76,7 +80,8 @@ const styles = StyleSheet.create({
     imageContainer: {
         marginTop: 30,
         //marginTop: 162,
-        alignItems: 'center'//ngang
+        alignItems: 'center',//ngang
+        height: '50%',
     },
     container: {
         flex: 1,
