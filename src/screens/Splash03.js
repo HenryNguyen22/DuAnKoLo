@@ -49,10 +49,14 @@ const styles = StyleSheet.create({
         backgroundColor: '#53E88B',
         borderRadius: 15,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginTop: 42,
     },
     buttonContainer: {
+<<<<<<< Updated upstream
         //marginTop: 42,
+=======
+>>>>>>> Stashed changes
         alignItems: 'center',
         height: '20%',
     },
@@ -68,19 +72,26 @@ const styles = StyleSheet.create({
         fontSize: 22,
         color: '#09051C',
         textAlign: 'center',
+
     },
     textContainer: {
         alignItems: 'center',
+<<<<<<< Updated upstream
         //marginTop: 39,
+=======
+>>>>>>> Stashed changes
         height: '30%',
     },
     image: {
         width: 408,
-        height: 434
+        height: 434,
     },
     imageContainer: {
+<<<<<<< Updated upstream
         marginTop: 30,
         //marginTop: 162,
+=======
+>>>>>>> Stashed changes
         alignItems: 'center',//ngang
         height: '50%',
     },

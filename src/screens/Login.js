@@ -173,8 +173,12 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '400',
         color: 'black',
+<<<<<<< Updated upstream
         //paddingHorizontal: 6,
         paddingRight: 20
+=======
+        paddingHorizontal: 6,
+>>>>>>> Stashed changes
     },
     imageEmail: {
         //marginTop: 3,
