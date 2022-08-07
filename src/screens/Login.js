@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput, Image, ImageBackground, TouchableOpacity, SafeAreaView, useColorScheme, StatusBar } from 'react-native'
+import { StyleSheet, Text, View, TextInput, Image, ImageBackground, TouchableOpacity, SafeAreaView, useColorScheme, StatusBar, ScrollView } from 'react-native'
 import React, { useState } from 'react'
 // import { Ionicons } from '@expo/vector-icons';
 
@@ -11,7 +11,11 @@ const Login = (props) => {
     console.log("GET EMAIL", getEmail);
 
     return (
+        <ScrollView
+            contentContainerStyle={{ flexGrow: 1 }}
+            showsVerticalScrollIndicator={false}>
         <SafeAreaView>
+
             <StatusBar barStyle={!isDarkMode ? 'light-content' : 'dark-content'} />
             <View style={styles.container}>
                 <ImageBackground source={require('../Images/Pattern.png')} resizeMode="cover" style={styles.image}>
@@ -98,6 +102,7 @@ const Login = (props) => {
                 </ImageBackground>
             </View>
         </SafeAreaView>
+        </ScrollView>
     )
 }
 
@@ -168,7 +173,8 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '400',
         color: 'black',
-        paddingHorizontal: 6,
+        //paddingHorizontal: 6,
+        paddingRight: 20
     },
     imageEmail: {
         //marginTop: 3,

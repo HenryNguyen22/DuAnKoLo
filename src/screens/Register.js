@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, ImageBackground, TextInput, Image, Pressable, SafeAreaView, StatusBar, useColorScheme, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, View, ImageBackground, TextInput, Image, Pressable, SafeAreaView, StatusBar, useColorScheme, TouchableOpacity, ScrollView } from 'react-native'
 import React, {useState} from 'react'
 // import { Ionicons } from '@expo/vector-icons';
 
@@ -12,6 +12,9 @@ const Register = (props) => {
     const [getPasswordVisible, setPasswordVisible] = useState(false);
 
     return (
+        <ScrollView
+            contentContainerStyle={{ flexGrow: 1 }}
+            showsVerticalScrollIndicator={false}>
         <SafeAreaView>
             <StatusBar barStyle={!isDarkMode ? 'light-content' : 'dark-content'} />
             <View style={styles.container}>
@@ -82,6 +85,7 @@ const Register = (props) => {
                 </ImageBackground>
             </View>
         </SafeAreaView>
+        </ScrollView>
     )
 }
 
@@ -151,8 +155,9 @@ const styles = StyleSheet.create({
         width: '90%',
         fontSize: 16,
         fontWeight: '400',
-        color: '#000000',
-        paddingHorizontal: 6,
+        color: 'black',
+        //paddingHorizontal: 6,
+        paddingRight: 20
     },
     imageEmail: {
         //marginTop: 3,
