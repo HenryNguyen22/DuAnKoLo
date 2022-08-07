@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Image, Pressable, TouchableOpacity } from 'reac
 import React from 'react'
 
 const Splash03 = (props) => {
-    const {navigation} = props;
+    const { navigation } = props;
 
     return (
         <View style={styles.container}>
@@ -12,17 +12,17 @@ const Splash03 = (props) => {
             </View>
 
             <View style={styles.textContainer}>
-                <View style={{ marginTop: 39}}>
-                <Text style={styles.textFindFood}>Food Ninja is Where Your</Text>
-                <Text style={styles.textFindFood}>Comfort Food Lives</Text>
-                <Text style={styles.textOder}>Enjoy a fast and smooth food delivery at</Text>
-                <Text style={styles.textOder}>your doorstep</Text>
+                <View style={{ marginTop: 39 }}>
+                    <Text style={styles.textFindFood}>Food Ninja is Where Your</Text>
+                    <Text style={styles.textFindFood}>Comfort Food Lives</Text>
+                    <Text style={styles.textOder}>Enjoy a fast and smooth food delivery at</Text>
+                    <Text style={styles.textOder}>your doorstep</Text>
                 </View>
             </View>
 
 
             <TouchableOpacity style={styles.buttonContainer}>
-                <View style={{ marginTop: 42}}>
+                <View style={{ marginTop: 42 }}>
                     <Pressable style={styles.button}
                         onPress={() => navigation.navigate("Login")}>
                         <Text style={styles.next}>Next</Text>
@@ -60,7 +60,8 @@ const styles = StyleSheet.create({
         fontSize: 12,
         fontWeight: '400',
         color: '#000000',
-        lineHeight:21
+        lineHeight: 21,
+        textAlign: 'center',
     },
     textFindFood: {
         fontWeight: 'bold',

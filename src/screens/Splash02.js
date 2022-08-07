@@ -12,17 +12,17 @@ const Splash02 = (props) => {
             </View>
 
             <View style={styles.textContainer}>
-                <View style={{ marginTop:39}}>
-                <Text style={styles.textFindFood}>Find your Comfort Food here</Text>
-                <Text style={styles.textFindFood}>Food here</Text>
-                <Text style={styles.textOder}>Here You Can find a chef or dish for every</Text>
-                <Text style={styles.textOder}>taste and color. Enjoy!</Text>
+                <View style={{ marginTop: 39 }}>
+                    <Text style={styles.textFindFood}>Find your Comfort Food here</Text>
+                    <Text style={styles.textFindFood}>Food here</Text>
+                    <Text style={styles.textOder}>Here You Can find a chef or dish for every</Text>
+                    <Text style={styles.textOder}>taste and color. Enjoy!</Text>
                 </View>
             </View>
 
 
             <TouchableOpacity style={styles.buttonContainer}>
-                <View style={{ marginTop: 42}}>
+                <View style={{ marginTop: 42 }}>
                     <Pressable style={styles.button}
                         onPress={() => navigation.navigate("Splash03")}>
                         <Text style={styles.next}>Next</Text>
@@ -60,7 +60,8 @@ const styles = StyleSheet.create({
         fontSize: 12,
         fontWeight: '400',
         color: '#000000',
-        lineHeight:21
+        lineHeight: 21,
+        textAlign: 'center',
     },
     textFindFood: {
         fontWeight: 'bold',
