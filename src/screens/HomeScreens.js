@@ -171,8 +171,8 @@ import {
       height: '100%',
       width: '100%',
       // backgroundColor:'#FFD700',
-      marginTop: 30,
       flex: 1,
+      marginTop:5
     },
     // slide show
     container1: {

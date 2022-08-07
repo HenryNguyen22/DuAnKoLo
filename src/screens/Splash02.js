@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
         height: 434
     },
     imageContainer: {
-        marginTop: 120,
+        marginTop: 30,
         //marginTop: 162,
         alignItems: 'center'//ngang
     },

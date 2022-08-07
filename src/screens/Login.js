@@ -115,7 +115,6 @@ const styles = StyleSheet.create({
     },
     logoContainer: {
         alignItems: "center",
-        marginTop: 47
     },
     logo: {
         width: 175,
@@ -213,7 +212,7 @@ const styles = StyleSheet.create({
     forgotContainer: {
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 20
+        marginTop:10
     },
     textForgot: {
         fontSize: 12,
@@ -224,7 +223,7 @@ const styles = StyleSheet.create({
 
     buttonContainer: {
         alignItems: 'center',
-        marginTop: 36
+        marginTop: 10
     },
     button: {
         height: 57,
@@ -246,7 +245,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'row',
-        marginTop: 10
     },
     textNoAccount: {
         fontSize: 12,
