@@ -48,6 +48,7 @@ const Register = (props) => {
                                 style={styles.textInput} />
                         </View>
 
+
                         <View style={styles.textInputContainer}>
                             <Image style={styles.imageEmail} resizeMode='cover'
                                 source={require('../Images/Lock.png')} />
@@ -156,8 +157,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '400',
         color: 'black',
-        //paddingHorizontal: 6,
-        paddingRight: 20
+        paddingRight: 25,
     },
     imageEmail: {
         //marginTop: 3,

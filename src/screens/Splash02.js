@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
         borderRadius: 15,
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 42,
+        //marginTop: 42,
     },
     buttonContainer: {
         //marginTop: 42,
@@ -65,14 +65,15 @@ const styles = StyleSheet.create({
         lineHeight: 21,
         textAlign: 'center',
         lineHeight:21,
-        marginTop: 10
+        //marginTop: 10
     },
     textFindFood: {
         fontWeight: 'bold',
         fontSize: 22,
         color: '#09051C',
         textAlign: 'center',
-        marginTop: 10
+
+        //marginTop: 10
     },
     textContainer: {
         alignItems: 'center',
@@ -84,7 +85,7 @@ const styles = StyleSheet.create({
         height: 434,
     },
     imageContainer: {
-        marginTop: 30,
+        //marginTop: 30,
         //marginTop: 162,
         alignItems: 'center',//ngang
         height: '50%',

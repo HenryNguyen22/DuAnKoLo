@@ -174,8 +174,8 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         color: 'black',
         //paddingHorizontal: 6,
-        paddingRight: 20,
-        paddingHorizontal: 6,
+        paddingRight: 25,
+        //paddingHorizontal: 6,
     },
     imageEmail: {
         //marginTop: 3,
