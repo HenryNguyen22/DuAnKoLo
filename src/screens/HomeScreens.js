@@ -138,16 +138,20 @@ const HomeScreens = () => {
         </View>
 
         {/* danh mục sản phẩm */}
-        
+
         <View style={styles.container2}>
           <Text style={styles.text}>Danh mục sản phẩm</Text>
         </View>
         <View style={styles.container7}>
-          <View style={{borderWidth:1, height:150, width:185}}>
+          <View style={styles.borderImg}>
             <Image style={styles.imgCandy} source={require('../Images/candy.jpg')} />
+            <Text numberOfLines={1} style={styles.text4}>Đây là demo thôi bala bala</Text>
+            <Text style={styles.text5}>123.000.000 đ</Text>
           </View>
-          <View style={{borderWidth:1, height:150, width:185}}>
+          <View style={styles.borderImg}>
             <Image style={styles.imgCandy} source={require('../Images/cutery.jpg')} />
+            <Text numberOfLines={1} style={styles.text4}>Đây là demo thôi bala bala</Text>
+            <Text style={styles.text5}>123.000.000 đ</Text>
           </View>
         </View>
 
@@ -169,10 +173,18 @@ const styles = StyleSheet.create({
     width: 120,
     borderRadius: 15,
   },
-  imgCandy:{
-    height: 120,
-    width: 120,
+  imgCandy: {
+    height: 150,
+    width: 150,
     borderRadius: 15,
+    marginVertical: 10,
+    marginHorizontal: 18,
+  },
+  borderImg: {
+    borderWidth: 0.2,
+    height: 250,
+    width: 185,
+    marginVertical: 10,
   },
   container: {
     height: '100%',
@@ -281,5 +293,16 @@ const styles = StyleSheet.create({
     height: 30,
     width: 30,
     position: 'absolute',
+  },
+  text4: {
+    fontSize: 15,
+    color: '#000000',
+    marginHorizontal: 20,
+  },
+  text5: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: 'red',
+    marginHorizontal: 20,
   }
 })
