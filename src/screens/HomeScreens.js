@@ -34,6 +34,7 @@ const HomeScreens = () => {
           value={search}
           placeholder="Tìm kiếm trên KoLo"
           fontSize={20}
+          color='#000'
           onChangeText={(text) => setSearch(text)}
         />
       </View>
@@ -143,11 +144,13 @@ const HomeScreens = () => {
           <Text style={styles.text}>Danh mục sản phẩm</Text>
         </View>
         <View style={styles.container7}>
+
           <View style={styles.borderImg}>
             <Image style={styles.imgCandy} source={require('../Images/candy.jpg')} />
             <Text numberOfLines={1} style={styles.text4}>Đây là demo thôi bala bala</Text>
             <Text style={styles.text5}>123.000.000 đ</Text>
           </View>
+
           <View style={styles.borderImg}>
             <Image style={styles.imgCandy} source={require('../Images/cutery.jpg')} />
             <Text numberOfLines={1} style={styles.text4}>Đây là demo thôi bala bala</Text>
@@ -165,12 +168,12 @@ export default HomeScreens
 const styles = StyleSheet.create({
   imgVegan: {
     height: 90,
-    width: 185,
+    width: 170,
     borderRadius: 15,
   },
   imgVegan1: {
-    height: 80,
-    width: 120,
+    height: 90,
+    width: 110,
     borderRadius: 15,
   },
   imgCandy: {
@@ -181,16 +184,19 @@ const styles = StyleSheet.create({
     marginHorizontal: 18,
   },
   borderImg: {
-    borderWidth: 0.2,
+    borderWidth: 1,
     height: 250,
-    width: 185,
+    width: 170,
     marginVertical: 10,
+    marginLeft: 6,
+    borderRadius: 15,
+    alignItems: 'center',
   },
   container: {
     height: '100%',
     width: '100%',
-    flex: 1,
-    //backgroundColor:'#FFD700',
+    // flex: 1,
+    // backgroundColor:'#FFD700',
   },
   // slide show
   container1: {
@@ -217,20 +223,24 @@ const styles = StyleSheet.create({
     width: 100,
   },
   container4: {
-    marginHorizontal: 5,
+    // marginHorizontal: 5,
   },
   container5: {
     marginTop: 10,
+    justifyContent: 'space-between',
     flexDirection: 'row',
     marginBottom: 5,
+    marginHorizontal:5,
 
   },
   container6: {
     flexDirection: 'row',
+    marginHorizontal:5,
+    justifyContent: 'space-between',
   },
   container7: {
     flexDirection: 'row',
-    marginHorizontal: 10,
+    marginHorizontal: 0,
   },
   text: {
     fontSize: 18,
